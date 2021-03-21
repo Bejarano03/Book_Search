@@ -11,6 +11,6 @@ const books = new mongoose.Schema({
     date: {type: Date, default: Date.now}
 });
 
-const Book = mongoose.model("Book", bookSchema);
+const Book = mongoose.model("Book", books);
 
 module.exports = Book;
